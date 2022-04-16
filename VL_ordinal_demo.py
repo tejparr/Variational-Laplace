@@ -70,3 +70,4 @@ pE,pC = VL_ordinal.default_priors(U,Y,K)
 M = {'pE':pE,'pC':pC}
 D = {'M':M,'Ep':Ep,'Cp':Cp}
 BMR,BMA = reduce_gaussian(D,'all')
+plt.show(block=True)

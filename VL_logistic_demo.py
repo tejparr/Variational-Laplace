@@ -131,3 +131,4 @@ pE,pC = VL_logistic.default_priors(U,Y)
 M = {'pE':pE,'pC':pC}
 D = {'M':M,'Ep':Ep,'Cp':Cp}
 BMR,BMA = reduce_gaussian(D,'all')
+plt.show(block=True)

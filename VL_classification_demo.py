@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.cm as cm
+import matplotlib.pyplot as plt
 import auxiliaryfunctions as aux
 import VL_logistic
 import VL_linear
@@ -109,6 +110,6 @@ z = np.exp( - np.exp(Ep2['pi'])*((x - Ep2['beta'][0,1])**2
 ax[1,1].imshow(-z, extent=[x0, x1, y0, y1],origin = 'lower',cmap = cm.gray, aspect = abs(x1-x0)/abs(y1-y0))
 ax[1,1].set_aspect(abs(x1-x0)/abs(y1-y0))
 ax[1,1].set(title = 'Probability map P(x|s = blue)')
-
+plt.show(block=True)
 
 
