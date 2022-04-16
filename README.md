@@ -1,2 +1,2 @@
-# Variational-Laplace
- 
+# Variational Laplace
+This is a python implementation of Variational Laplace, a method for approximate Bayesian inference predicated upon the Laplace approximation (i.e., that a posterior density is approximately Gaussian near its mode). This implementation is based upon the Matlab implementation available as part of the SPM12 package (https://www.fil.ion.ucl.ac.uk/spm/). In addition, this repository includes routines for Bayesian model reduction (https://arxiv.org/abs/1805.07092), used to efficiently test hypotheses framed in terms of 'reduced' models. Several demos are provided to illustrate application in fitting some simple models.
